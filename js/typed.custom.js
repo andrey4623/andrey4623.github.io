@@ -185,6 +185,8 @@ function syntaxHighlight(json) {
                                   restText = replaceAll(restText, " ", "&nbsp;");
                                   restText = replaceAll(restText, "\n", "<br />");
                                   restText = syntaxHighlight(restText);
+                                  //restText = replaceAll(restText, '"linkedin":', '<font color="#4dd3ff">"linkedin":</font>');
+                                  restText = replaceAll(restText, 'https://www.linkedin.com/in/andreykolchanov', '<a href="https://www.linkedin.com/in/andreykolchanov" style="color:white">https://www.linkedin.com/in/andreykolchanov</a>');
                                   self.el.html($(self.el).html() + "<br /><br /><br />" + restText);
                                   return;
                               }

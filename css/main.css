@@ -6,7 +6,7 @@
 body {
   font-family: "Ubuntu", sans-serif;
   font-size: 100%;
-  background: #f8f8f8; }
+  background: #f8f8f8;}
 
 a {
   text-decoration: none;
@@ -25,7 +25,7 @@ p {
 .header {
   width: 100%;
   min-height: 450px;
-  margin: 0 auto 30px;
+  margin: 0 auto 0px;
   padding: 10px 0;
   background: url(../img/header-bg.jpg) top center no-repeat fixed;
   background-size: 100%; }
@@ -97,7 +97,7 @@ p {
   border-bottom: #6a6a6a 1px solid; }
 
 .text-body {
-  height: 1050px;
+  height: 1090px;
   background-color: rgba(0, 0, 0, 0.85);
   padding: 10px;
   color: #f0f0f0;
