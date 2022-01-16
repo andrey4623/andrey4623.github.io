@@ -148,7 +148,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "file-text-o"
     icon_pack = "fa"
-    link = "files/CV.pdf"
+    link = "files/Andrey_Kolchanov_CV.pdf"
 
 
   #[[params.social]]
